@@ -20,7 +20,7 @@ namespace Web.Host.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "你的联系方式页面";
 
             return View();
         }
